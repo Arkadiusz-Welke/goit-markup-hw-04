@@ -34,8 +34,8 @@ body {
 }
 
 .hero {
+    background-image: url(file:///C:/Users/Arkadiusz/Documents/GitHub/goit-markup-hw-04/images/background-photo.jpg);
     background-color: var(--background-secondary-color);
-    background-image: url();
     max-width: 1600px;
     padding: 200px 252px;
     text-align: center;
