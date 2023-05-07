@@ -34,7 +34,8 @@ body {
 }
 
 .hero {
-    background-image: url(file:///C:/Users/Arkadiusz/Documents/GitHub/goit-markup-hw-04/images/background-photo.jpg);
+    background-image: url(file:///C:/Users/Arkadiusz/Documents/GitHub/goit-markup-hw-04/images/background-photo.jpg),
+        url(file:///C:/Users/Arkadiusz/Documents/GitHub/goit-markup-hw-04/images/img-overlay.jpg);
     background-color: var(--background-secondary-color);
     max-width: 1600px;
     padding: 200px 252px;
@@ -295,6 +296,8 @@ body {
 .buttons.button-all:focus {
     background: var(--interactive-buttons-links-color);
     color: var(--button-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-sites {
@@ -312,6 +315,8 @@ body {
 .buttons.button-sites:focus {
     background: var(--interactive-buttons-links-color);
     color: var(--button-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-apps {
@@ -329,6 +334,8 @@ body {
 .buttons.button-apps:focus {
     background: var(--interactive-buttons-links-color);
     color: var(--button-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-design {
@@ -346,6 +353,8 @@ body {
 .buttons.button-design:focus {
     background: var(--interactive-buttons-links-color);
     color: var(--button-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-marketing {
@@ -363,6 +372,8 @@ body {
 .buttons.button-marketing:focus {
     background: var(--interactive-buttons-links-color);
     color: var(--button-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .flex-portfolio-block-item {
@@ -374,6 +385,12 @@ body {
 .portfolio-block-item {
     background: var(--background-color);
     flex-basis: calc((100% - 60px) / 3);
+}
+
+.portfolio-block-item:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-block-item-names {
@@ -494,4 +511,18 @@ body {
 
 .services {
     margin-top: -94px;
+}
+
+.join-us {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.join-us-icons {
 }
