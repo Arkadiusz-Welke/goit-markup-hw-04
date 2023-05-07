@@ -34,7 +34,9 @@ body {
 }
 
 .hero {
-    background: var(--background-secondary-color);
+    background-color: var(--background-secondary-color);
+    background-image: url();
+    max-width: 1600px;
     padding: 200px 252px;
     text-align: center;
 }
