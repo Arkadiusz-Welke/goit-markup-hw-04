@@ -35,13 +35,18 @@ body {
 }
 
 .hero {
-    background: url('../images/background-photo.jpg'),
-        linear-gradient(rgba(47, 48, 58, 0.4)), (rgba(47, 48, 58, 0.4));
+    background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url('../images/background-photo.jpg');
     background-color: var(--background-secondary-color);
     max-width: 1600px;
     margin: auto;
     padding: 200px 252px;
     text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-text {
